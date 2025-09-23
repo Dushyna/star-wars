@@ -9,6 +9,7 @@ body {
     background-image: url("../Images/sky.jpg");
     color: #eedb00;
     background-attachment: fixed;
+    margin: 0.8px;
 }
 
 header, footer {
@@ -36,19 +37,10 @@ nav ul {
     padding: 0;
 }
 
-nav li {
-    display: inline-block;
-    border: 2px solid black;
-    background-color: rgba(204, 3, 35, 0.5);
-    border-radius: 5px;
-    font-size: 1em;
-    padding: 0.3em 0.6em;
-    cursor: pointer;
-}
 
-main {
+/*main {
     border: 1px solid transparent;
-}
+}*/
 
 .left {
     float: left;
@@ -73,18 +65,20 @@ main {
 
 .right img {
     width: 32.8%;
+    /* margin: calc(1%/6);*/
 }
 
 .right h2 {
     text-align: center;
 }
 
-.img1{
+.img1 {
     border-radius: 0 0 0 15px;
 }
 
-.img2{
-    border-radius: 0 0 15px 0 ;
+.img2 {
+    border-bottom-right-radius: 15px;
+    /*border-radius: 0 0 15px 0 ;*/
 }
 
 .far-galaxy {
@@ -101,6 +95,16 @@ footer {
 }
 
 .button {
+  /*  position: absolute;
+    top: 40%;
+    left: 25%;
+    */
+     margin-top: 2em;
+     margin-left: 20em;
+
+}
+
+.button-style {
     display: inline-block;
     border: 2px solid black;
     background-color: rgba(204, 3, 35, 0.5);
@@ -108,7 +112,4 @@ footer {
     font-size: 1em;
     padding: 0.3em 0.6em;
     cursor: pointer;
-    margin-top: 2em;
-    margin-left: 20em;
-
 }
