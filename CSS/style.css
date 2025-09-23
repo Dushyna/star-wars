@@ -79,11 +79,11 @@ main {
     text-align: center;
 }
 
-#img1{
+.img1{
     border-radius: 0 0 0 15px;
 }
 
-#img2{
+.img2{
     border-radius: 0 0 15px 0 ;
 }
 
