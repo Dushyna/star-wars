@@ -46,6 +46,10 @@ nav li {
     cursor: pointer;
 }
 
+main {
+    border: 1px solid transparent;
+}
+
 .left {
     float: left;
     width: 25%;
@@ -54,6 +58,7 @@ nav li {
 
 .left img {
     box-shadow: 0.6rem 0.6rem 0.6rem gray;
+    width: 100%;
 
 }
 
@@ -63,10 +68,23 @@ nav li {
     border: 1px solid #eedb00;
     border-radius: 0 0 15px 15px;
     margin: 0.3rem 0 0 0.6rem;
+    padding: 0;
 }
 
-img {
-    width: 100%;
+.right img {
+    width: 32.8%;
+}
+
+.right h2 {
+    text-align: center;
+}
+
+.img1{
+    border-radius: 0 0 0 15px;
+}
+
+.img2{
+    border-radius: 0 0 15px 0 ;
 }
 
 .far-galaxy {
@@ -90,5 +108,7 @@ footer {
     font-size: 1em;
     padding: 0.3em 0.6em;
     cursor: pointer;
+    margin-top: 2em;
+    margin-left: 20em;
 
 }
