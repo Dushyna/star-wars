@@ -60,16 +60,19 @@ nav ul {
     border: 1px solid #eedb00;
     border-radius: 0 0 15px 15px;
     margin: 0.3rem 0 0 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .right > img {
-    float: left;
     width: 33%;
-    margin: calc(1% / 6);
+    /* margin: calc(1% / 6);*/
 }
 
 .right > h2 {
     text-align: center;
+    flex-basis: 100%;
 }
 
 img {
